@@ -5,7 +5,8 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-char font[] = "Menlo:pixelsize=18:antialias=true:autohint=true";
+char font[] = "xos4 Terminus:style=regular:pixelsize=22:antialias=false:autohint=false";
+
 int borderpx = 2;
 
 /*
@@ -42,7 +43,7 @@ unsigned int tripleclicktimeout = 600;
 int allowaltscreen = 1;
 
 /* frames per second st should at maximum draw to the screen */
-unsigned int xfps = 120;
+unsigned int xfps = 60;
 unsigned int actionfps = 30;
 
 /*
