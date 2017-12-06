@@ -5,7 +5,7 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-char font[] = "xos4 Terminus:style=regular:pixelsize=22:antialias=false:autohint=false";
+char font[] = "Monaco:style=regular:pixelsize=20:antialias=true:autohint=true";
 
 int borderpx = 2;
 
@@ -129,7 +129,7 @@ unsigned int defaultrcs = 257;
  * 6: Bar ("|")
  * 7: Snowman ("☃")
  */
-unsigned int cursorshape = 6;
+unsigned int cursorshape = 2;
 
 /*
  * Default columns and rows numbers
